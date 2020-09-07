@@ -1,0 +1,22 @@
+{
+  "name": "amorphous-mud",
+  "version": "1.0.0",
+  "description": "text base MMO or MUD",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EvanVeinotte/amorphous-MUD.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EvanVeinotte/amorphous-MUD/issues"
+  },
+  "homepage": "https://github.com/EvanVeinotte/amorphous-MUD#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
