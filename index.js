@@ -3,8 +3,10 @@ const app = express();
 
 const PORT = 4422;
 
+app.use(express.static(__dirname + '/public/'));
+
 app.get('/', (req, res) => {
-    res.send('<h1>stinky</h1>');
+    res.sendFile(__dirname + '/public/index.html');
 });
 
 app.listen(PORT, () => {
